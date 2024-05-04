@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fast-api-project"
+version = "0.1.0"
+description = ""
+authors = ["Owais Yameen <wangchaoiq@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+pytest = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
